@@ -1,0 +1,57 @@
+fieldset{
+  float: left;
+}
+div{
+  border: 1px solid #ccc;
+  height: 300px;
+  width: 300px;
+}
+img{
+  width: 100px;
+}
+.flex-box{
+  display: flex;
+}
+.flex-box img{
+  margin: auto;
+}
+
+.translate-box{
+  position: relative
+}
+.translate-box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.absolute-box{
+  position: relative;
+}
+.absolute-box img{
+  position: absolute;
+  margin: auto;    
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.table-box{
+  display: table;
+}
+.inner-table-box{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.calc-box{
+  position: relative;
+}
+.calc-box img{
+  position: absolute;
+  top:calc(50% - 50px);
+  left:calc(50% - 50px);
+}
